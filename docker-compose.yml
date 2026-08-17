@@ -1,0 +1,8 @@
+services:
+  warehouse-control:
+    build: .
+    environment:
+      PORT: 10500
+    ports:
+      - "10500:10500"
+
